@@ -1,5 +1,12 @@
-@import "./header.css";
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;1,400&display=swap');
 
+/* Componentes */
+@import "./header.css";
+@import "./buttons.css";
+@import "./main.css";
+
+/* Reset CSS */
 * {
     margin: 0px;
     padding: 0px;
@@ -7,4 +14,19 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 1024px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
